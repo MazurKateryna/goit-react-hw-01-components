@@ -1,0 +1,21 @@
+.transaction {
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #a39f9f;
+}
+
+.head tr th {
+  height: 50px;
+  color: #ffffff;
+  background-color: rgb(150, 206, 243);
+}
+
+.transaction tbody td {
+  height: 50px;
+  color: #838181;
+}
+
+.item:nth-of-type(2n) {
+  background-color: rgb(245, 236, 236);
+}
